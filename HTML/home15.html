@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+            min-height: 100vh;
+            background-color: bisque;
+        }
+        .box{
+            background-color: chocolate;
+            width: 60px;
+            height: 60px;
+        }
+        .left{
+            transition: width 1s;
+        }
+        .left:hover{
+            width: 1000px;
+        }
+        .right{
+            transition: width 1s;
+        }
+        .right:hover{
+            width: 800px;
+        }
+        .middle{
+            transition: width 1s;
+        }
+        .middle:hover{
+            width: 1300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box right"></div>
+    <div class="box left"></div>
+    <div class="box middle"></div>
+    <div class="box right"></div>
+    <div class="box left"></div>
+    <div class="box middle"></div>
+    <div class="box left"></div>
+    <div class="box right"></div>
+    <div class="box middle"></div>
+    <div class="box left"></div>
+    <div class="box right"></div>
+</div>
+</body>
+</html>

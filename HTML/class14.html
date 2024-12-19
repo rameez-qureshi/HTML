@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        a{
+            text-decoration: none;
+            padding: 10px 14px;
+            margin: 3px;
+            background-color: aquamarine;
+            color: black;
+        }
+        .active{
+            background-color: blue;
+        }
+        a:hover:not(.active){
+            background-color: aqua;
+        }
+
+        .div1{
+            background-color: blueviolet;
+            width: 100px;
+            height: 100px;
+            transition: width 2s;
+        }
+        .div1:hover{
+            width: 300px;
+        }
+
+        .div2{
+            background-color: blueviolet;
+            width: 100px;
+            height: 100px;
+            transition: width 2s, height 2s;
+        }
+        .div2:hover{
+            width: 300px;
+            height: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>HEADING</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sit at debitis omnis.</p><br>
+
+    <p>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="" class="active">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">8</a>
+    </p>
+    <br>
+    <div class="div1"></div>
+    <br>
+    <div class="div2"></div>
+</body>
+</html>

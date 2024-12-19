@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class12</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-color: black;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #333;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.topnav a {
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  /* background-color: darkgray; */
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: grey;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: #333;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #333;
+  margin-top: 20px;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+
+ 
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Abu Software Company</h1>
+  <p>Resize the browser window to see the effect.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Videos</a>
+  <a href="#">Notification</a>
+  <a href="#" style="float:right">Link</a>
+
+</div>
+
+
+<div class="row">
+
+  <div class="leftcolumn">
+
+    <div class="card">
+      <h2 style="text-align: center;">Best Employies</h2>
+      <h5>Title description, </h5>
+      <div class="fakeimg" style="height: 400px;"></div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, </h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+
+  </div>
+
+  <div class="rightcolumn">
+
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
+
+

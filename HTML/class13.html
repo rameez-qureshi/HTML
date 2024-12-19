@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: lightgreen;
+        }
+        .left{
+            background-color: aquamarine;
+            float: left;
+            height: 100vh;
+            width: 25%;
+        }
+        ul li a{
+            display: block;
+            text-decoration: none;
+            color: black;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            margin: 2px 0px;
+        }
+        #active{
+            background-color: lightblue;
+        }
+        ul li a:hover:not(#active){
+            background-color: lightblue;
+        }
+
+        .right{
+            float: left;
+            width: 75%;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <ul>
+            <li><a href="#" id="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">JOIN</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <h2>PROBLEMS</h2><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, modi ad provident nesciunt odit repudiandae quis qui minus similique quod quia deserunt a, dolor dicta ex id dolores rerum. Autem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, modi ad provident nesciunt odit repudiandae quis qui minus similique quod quia deserunt a, dolor dicta ex id dolores rerum. Autem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, modi ad provident nesciunt odit repudiandae quis qui minus similique quod quia deserunt a, dolor dicta ex id dolores rerum. Autem!</p>
+        <p>some text</p>
+        <p>some text</p>
+        <p>some text</p>
+        <p>some text</p>
+        <p>some text</p>
+        <p>some text</p>
+        <p>some text</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        .header{
+            background-color: orangered;
+            text-align: center;
+            padding: 20px;
+            margin: 5px;
+        }
+        .menu{
+            float: left;
+            width: 25%;
+            background-color: yellow;
+            margin: 5px;
+        }
+        .menu p{
+            background-color: aquamarine;
+            display: block;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+        }
+        .main{
+            float: left;
+            width: 25%;
+            padding: 10px;
+            margin: 5px;
+            background-color: olivedrab;
+        }
+        .right{
+            float: left;
+            width: 25%;
+            padding: 10px;
+            margin: 5px;
+            background-color: yellow;
+        }
+        @media only screen and (max-width:600px) {
+            .main ,.menu ,.right{
+                width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>HELLO WORLD</h2>
+    </div>
+    <div>
+        <div class="menu">
+            <p><a href="#">Link-1</a></p>
+            <p><a href="#">Link-2</a></p>
+            <p><a href="#">Link-3</a></p>
+            <p><a href="#">Link-4</a></p>
+        </div>
+        <div class="main">
+            <h2>HELLO WORLD</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolores voluptas ullam eum atque architecto deleniti harum modi pariatur, sapiente cum omnis libero nesciunt repudiandae obcaecati odio cumque accusantium beatae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, saepe delectus aperiam deserunt nam, nulla impedit maxime ad perferendis eos voluptas esse rem quis deleniti, facere culpa non numquam voluptate!</p>
+        </div>
+        <div class="right">
+            <h2>HELLO WORLD</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, quam, veritatis optio pariatur quidem temporibus possimus odio, praesentium ipsa libero dolorem sit reiciendis facilis architecto. Temporibus velit optio beatae voluptatem!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi magnam sunt earum accusantium id ratione unde qui cumque tenetur magni debitis ex modi placeat culpa at, totam sint? Eaque!</p>
+        </div>
+    </div>
+</body>
+</html>
